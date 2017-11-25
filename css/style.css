@@ -1,0 +1,167 @@
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  background-color: #4d4d4d;
+  font-family: "Audiowide", cursive;
+  position: relative;
+}
+
+.container {
+  width: 300px;
+  display: block;
+  overflow: auto;
+  margin: 20px auto;
+  position: relative;
+  padding: 10px;
+  border-radius: 8px;
+  background: rgba(226, 226, 226, 1);
+  background: -moz-linear-gradient(
+    top,
+    rgba(226, 226, 226, 1) 0%,
+    rgba(219, 219, 219, 1) 0%,
+    rgba(209, 209, 209, 1) 0%,
+    rgba(175, 169, 150, 1) 78%,
+    rgba(175, 169, 150, 1) 100%
+  );
+  background: -webkit-gradient(
+    left top,
+    left bottom,
+    color-stop(0%, rgba(226, 226, 226, 1)),
+    color-stop(0%, rgba(219, 219, 219, 1)),
+    color-stop(0%, rgba(209, 209, 209, 1)),
+    color-stop(78%, rgba(175, 169, 150, 1)),
+    color-stop(100%, rgba(175, 169, 150, 1))
+  );
+  background: -webkit-linear-gradient(
+    top,
+    rgba(226, 226, 226, 1) 0%,
+    rgba(219, 219, 219, 1) 0%,
+    rgba(209, 209, 209, 1) 0%,
+    rgba(175, 169, 150, 1) 78%,
+    rgba(175, 169, 150, 1) 100%
+  );
+  background: -o-linear-gradient(
+    top,
+    rgba(226, 226, 226, 1) 0%,
+    rgba(219, 219, 219, 1) 0%,
+    rgba(209, 209, 209, 1) 0%,
+    rgba(175, 169, 150, 1) 78%,
+    rgba(175, 169, 150, 1) 100%
+  );
+  background: -ms-linear-gradient(
+    top,
+    rgba(226, 226, 226, 1) 0%,
+    rgba(219, 219, 219, 1) 0%,
+    rgba(209, 209, 209, 1) 0%,
+    rgba(175, 169, 150, 1) 78%,
+    rgba(175, 169, 150, 1) 100%
+  );
+  background: linear-gradient(
+    to bottom,
+    rgba(226, 226, 226, 1) 0%,
+    rgba(219, 219, 219, 1) 0%,
+    rgba(209, 209, 209, 1) 0%,
+    rgba(175, 169, 150, 1) 78%,
+    rgba(175, 169, 150, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(
+      startColorstr="#e2e2e2",
+      endColorstr="#afa996",
+      GradientType=0
+    );
+  -webkit-box-shadow: 0px 3px 17px 3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 3px 17px 3px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 3px 17px 3px rgba(0, 0, 0, 0.75);
+}
+
+.screen {
+  width: 97%;
+  height: 60px;
+  background-color: #757575;
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  padding: 0 5px;
+  color: black;
+  font-size: 45px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  border-radius: 5px;
+  font-family: "Atomic Age", cursive;
+  -webkit-box-shadow: inset 0px 0px 10px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: inset 0px 0px 10px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: inset 0px 0px 10px 1px rgba(0, 0, 0, 0.75);
+}
+
+.logo {
+  font-size: 16px;
+  margin: 1.5%;
+}
+
+.panel {
+  margin: 1.5%;
+  width: 60%;
+  height: 40px;
+  background-color: #230033;
+  display: flex;
+}
+
+.solar {
+  width: 33.3%;
+  height: 100%;
+}
+
+.button {
+  text-align: center;
+  width: 22%;
+  height: 50px;
+  margin: 1.5%;
+  background-color: #1f1f1f;
+  float: left;
+  font-size: 25px;
+  color: white;
+  padding: 0;
+  border: none;
+  border-radius: 8px;
+  -webkit-box-shadow: inset 0px -3px 3px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: inset 0px -3px 3px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: inset 0px -3px 3px 0px rgba(0, 0, 0, 0.75);
+}
+
+button:active {
+  transform: translate(0px, 3px);
+  box-shadow: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+.power {
+  background-color: #e34f4f;
+}
+
+.number {
+  background-color: #737373;
+}
+
+.zero {
+  width: 47%;
+}
+
+#middle {
+  border-right: 1px solid #525252;
+  border-left: 1px solid #525252;
+}
+
+#author {
+  text-align: center;
+  color: #adadad;
+  font-family: Raleway;
+  font-size: 1em;
+}
